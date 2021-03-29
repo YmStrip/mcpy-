@@ -26,5 +26,21 @@ from ym import 名称
 
 ##MCJQUERY
 >#选择器
+>- 单元选择
 >
+>### #uiname 依照名称筛选UI
+>### .type 依照类型筛选UI
+>### :src: 依照绝对路径筛选UI
+>### *[first] 第一个
+>### *[last] 最后一个
+>### *[int:] 区间int到99999个
+>### *[:int] 区间0到int个
+>### *[int1:int2] 区间int1到int2个
+>- 单元拼接
+>
+>###unit1+unit2 unit1与unit2的并集
+>###unit1!unit2 不包括!unit2的内容
+>- 单元集成
+>
+>###unit1,unit2 unit1与unit2单元的并集
 
