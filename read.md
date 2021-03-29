@@ -43,4 +43,9 @@ from ym import 名称
 >- 单元集成
 >
 >###unit1,unit2 unit1与unit2单元的并集
-
+>#示例
+>```python
+> jq ( ':/main: ! .button ' ) #选取 /main 路径下所有子节点, 不包括 button 类型
+> jq ( ':/main:[0:5] + .button ' ) #选取 /main 路径下子节点1到5 和 所有 button 类型
+> jq ( '#test + #main , .button[3:16] ! #test1' ) #选取 名字叫test和main的节点 与 类型为button的3到16个但名字不为 test1 的节点的集合
+>```
