@@ -19,7 +19,12 @@ from ym import 名称
 >#tick(func) 引入帧函数
 >###func(self)
 >- self - UI底层对象，帧函数是每次刷新时调用的，官方所给信息是一秒30次
+>
 >#init(func) 初始化
 >###func(self) 
 >- self UI 底层对象
+
+##MCJQUERY
+>#选择器
+>
 
