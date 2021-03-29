@@ -16,4 +16,6 @@ from ym import 名称
 >- self - UI底层对象,请使用 ui .get ( self , 路径 ) 来获取ui实例
 >
 >#load(ui实例) 创建mcjquery对象 
->###mcjquery[object]
+>#tick(func) 引入帧函数
+>###func(self)
+>- self - UI底层对象，帧函数是每次刷新时调用的，官方所给信息是一秒30次
