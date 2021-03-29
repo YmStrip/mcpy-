@@ -10,10 +10,10 @@ from ym import 名称
 |ui|ui封装和mcjQuery类似选择器|
 
 #API
-> ##UI
->>create(func) 引入函数
->>>func(self)
->>> self - UI底层对象,请使用 ui .get ( self , 路径 ) 来获取ui实例
+##UI
+>create(func) 引入函数
+>- func(self)
+>####self - UI底层对象,请使用 ui .get ( self , 路径 ) 来获取ui实例
 
 >>load(ui实例) 创建mcjquery对象 
 >>
