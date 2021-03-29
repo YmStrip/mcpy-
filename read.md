@@ -11,4 +11,6 @@ from ym import 名称
 
 #API
 > ##UI
->>f
+>>create(func)
+>>>func
+>>>>d
